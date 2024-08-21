@@ -67,6 +67,10 @@ pip install xformers --index-url https://download.pytorch.org/whl/cu121
 wget -c https://huggingface.co/lllyasviel/flux1-dev-bnb-nf4/resolve/main/flux1-dev-bnb-nf4-v2.safetensors -P ComfyUI/models/checkpoints/
 ```
 
+### [Opcional] Vou deixar aqui como fazer o download do Hugging Face se o repositório for privado e precisar de autenticação
+```
+wget --header="Authorization: Bearer [COLOCA SEU TOKEN DO HUGGING FACE AQUI]" https://huggingface...........
+```
 
 ### Criar um script de start para facilitar a execução do ComfyUI
 
