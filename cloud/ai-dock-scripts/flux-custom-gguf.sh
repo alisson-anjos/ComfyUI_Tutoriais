@@ -19,19 +19,17 @@ PIP_PACKAGES=(
 )
 
 NODES=(
-    "https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes.git",
-    "https://github.com/Fannovel16/comfyui_controlnet_aux.git",
-    "https://github.com/cubiq/ComfyUI_essentials.git",
-    "https://github.com/chflame163/ComfyUI_LayerStyle.git",
-    "https://github.com/storyicon/comfyui_segment_anything.git",
-    "https://github.com/EeroHeikkinen/ComfyUI-eesahesNodes.git",
-    "https://github.com/city96/ComfyUI-GGUF.git",
-    "https://github.com/kijai/ComfyUI-KJNodes.git",
-    "https://github.com/kijai/ComfyUI-segment-anything-2.git",
-    "https://github.com/ZHO-ZHO-ZHO/ComfyUI-YoloWorld-EfficientSAM.git",
-    "https://github.com/rgthree/rgthree-comfy.git",
-    "https://github.com/crystian/ComfyUI-Crystools.git"
-
+    "https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes.git"
+    "https://github.com/Fannovel16/comfyui_controlnet_aux.git"
+    "https://github.com/cubiq/ComfyUI_essentials.git"
+    "https://github.com/chflame163/ComfyUI_LayerStyle.git"
+    "https://github.com/storyicon/comfyui_segment_anything.git"
+    "https://github.com/EeroHeikkinen/ComfyUI-eesahesNodes.git"
+    "https://github.com/city96/ComfyUI-GGUF.git"
+    "https://github.com/kijai/ComfyUI-KJNodes.git"
+    "https://github.com/kijai/ComfyUI-segment-anything-2.git"
+    "https://github.com/ZHO-ZHO-ZHO/ComfyUI-YoloWorld-EfficientSAM.git"
+    "https://github.com/rgthree/rgthree-comfy.git"
 )
 
 CHECKPOINT_MODELS=(
