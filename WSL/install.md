@@ -125,3 +125,8 @@ To simplify running ComfyUI, create a script that activates the virtual environm
      ```
    - Ensure CUDA is correctly installed and recognized.
 
+
+
+### ** Workflow: **
+
+[Huanyuan native workflow with Sage Attention patch.](blackwell_torch_sage_hunyuan.json)
