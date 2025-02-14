@@ -46,8 +46,10 @@ Activate the virtual environment and install the required packages.
   ```bash
   source ~/envs/comfyui/bin/activate
   ```
-
+  
 - Install packages:
+
+  [Kijai precompile](https://huggingface.co/Kijai/PrecompiledWheels/tree/main)
   1. **Triton**:
      ```bash
      pip install triton-3.2.0-cp312-cp312-linux_x86_64.whl
