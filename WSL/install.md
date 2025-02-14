@@ -50,14 +50,17 @@ Activate the virtual environment and install the required packages.
 - Install packages:
 
   [Kijai precompile](https://huggingface.co/Kijai/PrecompiledWheels/tree/main)
-  1. **Triton**:
-     ```bash
-     pip install triton-3.2.0-cp312-cp312-linux_x86_64.whl
-     ```
-  2. **PyTorch** (with CUDA 12.8 support):
+  
+  1. **PyTorch** (with CUDA 12.8 support):
      ```bash
      pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu128
      ```
+     
+  2. **Triton**:
+     ```bash
+     pip install triton-3.2.0-cp312-cp312-linux_x86_64.whl
+     ```
+     
   3. **SageAttention**:
      ```bash
      pip install sageattention-2.1.0-cp312-cp312-linux_x86_64.whl
