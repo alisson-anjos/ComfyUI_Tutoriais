@@ -28,6 +28,12 @@ You can copy the ComfyUI files from Windows to WSL using `rsync` or manually via
     rsync -avz /mnt/d/Tools/ComfyUI_Docker ~/tools
     ```
 
+- **Using `explorer.exe`**:
+  ```bash
+  explorer.exe .
+  ```
+  The . can be changed to the path of the folder you need to copy
+
 ---
 
 #### **2. Create a Virtual Environment**
