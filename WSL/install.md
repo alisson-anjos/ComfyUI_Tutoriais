@@ -98,7 +98,7 @@ To simplify running ComfyUI, create a script that activates the virtual environm
 
 - Create the script:
   ```bash
-  echo "~/envs/comfyui/bin/python -s ~/ComfyUI_Docker/ComfyUI/main.py" > ~/start_comfyui.sh
+  echo "~/envs/comfyui/bin/python -s ~/ComfyUI_Docker/ComfyUI/main.py --use-sage-attention" > ~/start_comfyui.sh
   ```
   **Note:** The paths above are examples. Replace `~/envs/comfyui` and `~/ComfyUI_Docker/ComfyUI` with the actual paths to your virtual environment and ComfyUI folder.
 
