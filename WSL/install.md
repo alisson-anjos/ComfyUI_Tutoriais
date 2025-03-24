@@ -28,6 +28,12 @@ You can copy the ComfyUI files from Windows to WSL using `rsync` or manually via
     rsync -avz /mnt/d/Tools/ComfyUI_Docker ~/tools
     ```
 
+- **Using `explorer.exe`**:
+  ```bash
+  explorer.exe .
+  ```
+  The . can be changed to the path of the folder you need to copy
+
 ---
 
 #### **2. Create a Virtual Environment**
@@ -50,14 +56,17 @@ Activate the virtual environment and install the required packages.
 - Install packages:
 
   [Kijai precompile](https://huggingface.co/Kijai/PrecompiledWheels/tree/main)
-  1. **Triton**:
-     ```bash
-     pip install triton-3.2.0-cp312-cp312-linux_x86_64.whl
-     ```
-  2. **PyTorch** (with CUDA 12.8 support):
+  
+  1. **PyTorch** (with CUDA 12.8 support):
      ```bash
      pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu128
      ```
+     
+  2. **Triton**:
+     ```bash
+     pip install triton-3.2.0-cp312-cp312-linux_x86_64.whl
+     ```
+     
   3. **SageAttention**:
      ```bash
      pip install sageattention-2.1.0-cp312-cp312-linux_x86_64.whl
@@ -89,7 +98,7 @@ To simplify running ComfyUI, create a script that activates the virtual environm
 
 - Create the script:
   ```bash
-  echo "~/envs/comfyui/bin/python -s ~/ComfyUI_Docker/ComfyUI/main.py" > ~/start_comfyui.sh
+  echo "~/envs/comfyui/bin/python -s ~/ComfyUI_Docker/ComfyUI/main.py --use-sage-attention" > ~/start_comfyui.sh
   ```
   **Note:** The paths above are examples. Replace `~/envs/comfyui` and `~/ComfyUI_Docker/ComfyUI` with the actual paths to your virtual environment and ComfyUI folder.
 
